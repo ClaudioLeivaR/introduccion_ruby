@@ -22,10 +22,10 @@ nivel=persona3.split(",")[2]
 puts "hola, me llamo #{nombre} y tengo #{edad} años, mi nivel es #{nivel}"
 
 puts "ingrese su nombre"
-nombre1=gets
+nombre1=gets.chomp
 puts "ingrese su edad"
-edad1=gets
+edad1=gets.chomp
 puts"ingrese su nivel"
-nivel1= gets
+nivel1= gets.chomp
 
 puts "hola, me llamo #{nombre1} y tengo #{edad1} años, mi nivel es #{nivel1}"
