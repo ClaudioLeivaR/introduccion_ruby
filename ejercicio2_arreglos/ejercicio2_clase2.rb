@@ -43,9 +43,15 @@ puts "7.- salir"
         puts "pero solo un array si se puede; arra1 * 3 =  #{ar1*3}"
         puts "division de 8 / 4 es imposible en ruby"
 
-    elsif opcion ==4
-
-
+    elsif opcion == "4"
+        puts "el uso de los signos +-*/ con un array de cadenas en rubi:"
+        ar1=["hola","chao","melmac","chala"]
+        ar2=["sal","pimienta","melmac", "zapato"]
+        puts "suma del array1 + array2 = #{ar1+ar2}"
+        puts "resta del array1 - arrya2 =  #{ar1-ar2}"
+        #puts "multiplicacion del array1 * array2 es imposible"
+        #puts "pero solo un array si se puede; arra1 * 3 =  #{ar1*3}"
+        #puts "division de 8 / 4 es imposible en ruby"
     
     
     end    

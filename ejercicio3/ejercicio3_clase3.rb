@@ -10,7 +10,8 @@ monto2=gets.chomp
 puts "ingrese el monto en dolares para convertir a soles:"
 monto3=gets.chomp
 
-puts "Entrada                   Salida"
-puts monto1, 3795.47*monto1.to_i
-puts monto2, 0.0013*monto2.to_i
-puts monto3, 3.98*monto3.to_i
+puts "Entrada\t\tSalida"
+puts "=======\t\t======"
+puts "#{monto1}\t\t#{3795.47*monto1.to_i}"
+puts "#{monto2}\t\t#{0.0013*monto2.to_i}"
+puts "#{monto3}\t\t#{3.98*monto3.to_i}"

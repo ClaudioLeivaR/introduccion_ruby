@@ -1,15 +1,13 @@
-mat1=[]
-mat2=[]
-n=""
 puts "ingrese un numero para declarar la matriz"
-n= gets.chomp
+n= gets.chomp.to_i
+puts "==="*n
+i=0
 
-#for i in 0..n.to_i
-#    for j in 0..n.to_i
- #       a[i][j]= n
-  #      puts a
-   # end
-#end
+while  i<n  do
+   j= "   "*((n-1)-i)
 
-def mda(width,height)
+   puts  j+"x"
+   i += 1
+ 
 end
+puts "==="*n
