@@ -53,7 +53,14 @@ lista_de_clientes =  []
   for cliente in lista_de_clientes
     cliente.mostrar_mascota
   end
-  for i in 0..199
+
+# crear una nueva lista de clientes de 200 clientes
+# crear la mascoota para cada cliente de una vez
+# mostrar los datos del cliente y su  mascota
+
+nuevos_clientes =[]
+  for i in 1..200
+    j == i
     cliente = Cliente.new
     cliente.nombre = Faker::Name.name
     cliente.correo = Faker::Internet.email(
@@ -63,7 +70,12 @@ lista_de_clientes =  []
          )
     
     #asignacion de mascota
-    
+    cliente.mascota = Mascota.new
+    cliente.mascota.nombre = Faker::Creature::Dog.name
+
+    puts i
+    cliente.mostrar_mascota
+    nuevos_clientes << cliente
 
   end
 #  for perro in lista_perros
