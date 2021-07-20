@@ -34,3 +34,4 @@ class Cliente
         puts "mi nombre : #{@nombre} y mi mascota : #{@mascota.nombre}"
     end
 end
+
