@@ -4,14 +4,15 @@
 #crear un generador de pedidos para que gestione el menu
 require_relative "ventas"
 
+
 comando = ""
 while comando != "n"
     venta = Venta.new
     venta.comenzar
 
-    puts "Quiere hacer otro pedido? (s/n)"
-    
-#creando inventario
+    puts "¿Quiere hacer otro pedido? (s/n)"
+    comando = gets.chomp
+end
 
 
 
