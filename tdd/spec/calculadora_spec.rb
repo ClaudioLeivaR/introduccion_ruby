@@ -6,7 +6,7 @@ RSpec.describe "Calculadora" do
         it "cuando son iguales" do
             #configuracion
             calc = Calculadora.new
-             #ejecucion
+            #ejecucion
             resultado = calc.sumar(2,2)
             #expectativa
             expect(resultado).to eql(4)
@@ -26,7 +26,7 @@ RSpec.describe "Calculadora" do
             resultado = calc.sumar(2,5)
             expect(resultado).to eql(7)
         end
-       
+    
     end
 
     describe "restar numeros" do
